@@ -7,7 +7,9 @@ authors = [
     { name = "Jonathan Hall", email = "jonathan@jhall.io" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "requests>=2.34.2",
+]
 
 [project.scripts]
 python-toy = "python_toy:main"
